@@ -1,0 +1,41 @@
+.countries-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan en varias filas */
+    gap: 20px; /* Espaciado entre las tarjetas */
+    justify-content: center; /* Centra las tarjetas horizontalmente */
+    padding: 20px;
+  
+    .country-card {
+      display: flex;
+      flex-direction: column; /* Organiza los elementos dentro de cada tarjeta verticalmente */
+      justify-content: space-between;
+      align-items: center;
+      width: 200px; /* Ancho fijo de cada tarjeta */
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      position: relative;
+  
+      .flag {
+        font-size: 40px;
+        margin-bottom: 10px;
+      }
+  
+      .details {
+        text-align: center;
+  
+        h3 {
+          font-size: 18px;
+          margin-bottom: 5px;
+        }
+  
+        p {
+          font-size: 14px;
+          color: #666;
+          margin: 3px 0;
+        }
+      }
+    }
+}

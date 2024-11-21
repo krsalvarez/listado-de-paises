@@ -1,0 +1,17 @@
+.header {
+    background-color: #28a745; /* Color de fondo verde */
+    color: white; /* Texto en blanco */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar el texto */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+  
+    h1 {
+      font-size: 24px; /* Tamaño del título */
+      margin: 0 0 10px; /* Espaciado debajo del título */
+    }
+  
+    p {
+      font-size: 14px; /* Tamaño del texto descriptivo */
+      margin: 0; /* Sin márgenes */
+    }
+  }
