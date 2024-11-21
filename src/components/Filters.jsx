@@ -1,7 +1,13 @@
-function Filters() {
+function Filters({ onChangeFilter }) {
+    const handleChange = (ev) => {
+        onChangeFilter(ev.target.value);
+    }
 
     return (
-        <h1>Hola mundo</h1>
+        <form>
+            <label htmlFor="search">By Country:</label>
+            <input id="search" type="text" onChange={handleChange} />
+        </form>
     )
 }
 
